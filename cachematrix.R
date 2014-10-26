@@ -1,4 +1,4 @@
-## This function sets the value of matrix x, then gets the value.
+## This function sets the value of matrix x, and then gets the value.
 ## It also sets the value of the inverse of x, inv, and also gets the value.
 
 makeCacheMatrix <- function(x = matrix()) {
