@@ -1,5 +1,5 @@
-## This function sets the value of matrix x, and gets the value of x.
-## It also sets the value of the inverse matrix inv, and gets the value of inv.
+## This function sets the value of matrix x, then gets the value.
+## It also sets the value of the inverse of x, inv, and also gets the value.
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
@@ -14,9 +14,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## This function checks if the inverse of matrix x is available. If so, 
-## it retuns the vallue.
-## Otherwise, the function calculates the inverse of x and sets this value in
+## This function checks if the value of inv is already set. If so, 
+## it retuns that vallue.
+## Otherwise, the function calculates inv and sets this value in
 ## the cache function above.
 
 cacheSolve <- function(x, ...) {
